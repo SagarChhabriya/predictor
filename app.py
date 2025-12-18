@@ -1,7 +1,7 @@
 import streamlit as st 
 import pickle
 
-st.title("Salary Predictor")
+st.title("Salary Predictor 💵")
 st.set_page_config(page_title="Salary Predictor", page_icon="💵")
 
 with open("model.pkl", "rb") as f:
